@@ -1,0 +1,14 @@
+{
+    "servers": {
+         "businesscentral": {
+             "url": "https://mcp.businesscentral.dynamics.com",
+             "type": "http",
+             "headers": {
+                 "TenantId": "74da0941-31dc-453f-a965-c39514965b6d",
+                 "EnvironmentName": "Sandbox_BRAVX_18-06-2026",
+                 "Company": "Maiburg B.V.",
+                 "ConfigurationName": "Sandbox_BRAVX_18-06-2026"
+             }
+         }
+     }
+ }

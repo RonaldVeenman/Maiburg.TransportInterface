@@ -1,0 +1,12 @@
+{
+    "al.assemblyProbingPaths": [
+    ],
+    "al.ruleSetPath": "./ruleset.json",
+    "todo-tree.tree.scanMode": "workspace",
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}",
+        "${PerTenantExtensionCop}"
+    ],
+    "al.enableCodeAnalysis": true,
+}

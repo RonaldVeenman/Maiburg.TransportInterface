@@ -1,0 +1,92 @@
+{
+    "name": "ForNAV",
+    "description": "ForNAV Rules",
+    "generalAction": "Hidden",
+    "rules": [
+        {
+            "id": "AA0215",
+            "action": "Hidden",
+            "justification": "Object naming." 
+        },
+        {
+            "id": "AA0470",
+            "action": "Hidden",
+            "justification": "Placeholders should have a comment." 
+        },
+        {
+            "id": "AA0205",
+            "action": "Hidden",
+            "justification": "Use of unassigned variable." 
+        },
+        {
+            "id": "AL0603",
+            "action": "Hidden",
+            "justification": "Implicit conversion warning." 
+        },
+        {
+            "id": "AA0218",
+            "action": "Hidden",
+            "justification": "Tooltip missing warning." 
+        },
+        {
+            "id": "AA0217",
+            "action": "Hidden",
+            "justification": "Use text constant or label for format in string in StrSubstNo." 
+        },
+        {
+            "id": "AA0100",
+            "action": "Hidden",
+            "justification": "Do not use identifiers with quotes in the name." 
+        },
+        {
+            "id": "AA0139",
+            "action": "Hidden",
+            "justification": "Possible overflow warning." 
+        },
+        {
+            "id": "AA0137",
+            "action": "Hidden",
+            "justification": "name of parameter is identical to a global variable." 
+        },
+        {
+            "id": "AW0011",
+            "action": "Hidden",
+            "justification": "Group only contains promoted fields that are not set to promoted only = true." 
+        },        
+        {
+            "id": "AW0005",
+            "action": "Hidden",
+            "justification": "Action without image" 
+        },        
+        {
+            "id": "AA0198",
+            "action": "Hidden",
+            "justification": "name of parameter is identical to a global variable." 
+        },
+        {
+            "id": "AA0204",
+            "action": "Hidden",
+            "justification": "name of global variable is identical to a field, method or action in the same scope." 
+        },
+        {
+            "id": "AA0206",
+            "action": "Hidden",
+            "justification": "Variable is initialized but not used." 
+        },
+        {
+            "id": "AA0244",
+            "action": "Hidden",
+            "justification": "name of parameter is identical to a global variable." 
+        },
+        {
+            "id": "AA0245",
+            "action": "Hidden",
+            "justification": "name of parameter is identical to a global variable." 
+        },
+        {
+            "id": "AA0074",
+            "action": "Hidden",
+            "justification": "Variable must have suffix from this list" 
+        }
+    ]
+}
