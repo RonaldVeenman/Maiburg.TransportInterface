@@ -53,6 +53,11 @@ table 52100 "MBT Transport Connector Setup"
             ToolTip = 'Voorgestelde pollingfrequentie voor statusupdates.';
             MinValue = 0;
         }
+        field(11; "Account ID"; Text[50])
+        {
+            Caption = 'Account ID';
+            ToolTip = 'Account-/klantnummer bij de transporteur (bv. DHL accountId), indien van toepassing.';
+        }
     }
 
     keys
@@ -66,12 +71,16 @@ table 52100 "MBT Transport Connector Setup"
     trigger OnInsert()
     var
         DhlConnector: Codeunit "MBT Dhl Connector";
+        BumbalConnector: Codeunit "MBT Bumbal Connector";
     begin
-        // Zorgt dat de benodigde credential-placeholders (UserId, ApiKey) meteen klaarstaan.
+        // Zorgt dat de benodigde credential-placeholders meteen klaarstaan.
         if Code = DhlConnectorCodeTok then
             DhlConnector.EnsureRequiredCredentialsExist();
+        if Code = BumbalConnectorCodeTok then
+            BumbalConnector.EnsureRequiredCredentialsExist();
     end;
 
     var
         DhlConnectorCodeTok: Label 'DHL', Locked = true;
+        BumbalConnectorCodeTok: Label 'BUMBAL', Locked = true;
 }

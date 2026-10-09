@@ -11,7 +11,8 @@ codeunit 52100 "MBT Transport Export Mgt."
         TempTransportExportBuffer.Reset();
         TempTransportExportBuffer.DeleteAll();
 
-        WhseShptHeader.SetRange("MBT Exported", false);
+        // Ook al geëxporteerde verzendingen tonen (zodat ze zichtbaar/terug te vinden zijn);
+        // opnieuw exporteren moet daarom eerst bevestigd worden, zie action Export op de pagina.
         WhseShptHeader.SetRange("Completely Picked", true);
         if (FromDate <> 0D) or (ToDate <> 0D) then
             WhseShptHeader.SetRange("Shipment Date", FromDate, ToDate);
@@ -47,8 +48,10 @@ codeunit 52100 "MBT Transport Export Mgt."
         if WhseShptLine.FindSet() then
             repeat
                 TotalQty += WhseShptLine."Qty. to Ship (Base)";
-                TotalWeight += WhseShptLine.Weight * WhseShptLine."Qty. to Ship";
+                // Weight is al het totaalgewicht van de regel, niet een gewicht per stuk.
+                TotalWeight += WhseShptLine.Weight;
             until WhseShptLine.Next() = 0;
+        TotalWeight := Round(TotalWeight, 1);
     end;
 
     local procedure GetCustomerName(WhseShptNo: Code[20]): Text[100]
@@ -69,16 +72,26 @@ codeunit 52100 "MBT Transport Export Mgt."
         exit(SalesHeader."Sell-to Customer Name");
     end;
 
+    /// <summary>Geeft de laatste foutmelding van de verzending, tenzij daarna een geslaagde actie (export of label) is gelogd.</summary>
     local procedure GetLastErrorText(WhseShptNo: Code[20]): Text[250]
     var
         TransportLog: Record "MBT Transport Log";
+        LastErrorDateTime: DateTime;
+        ErrorText: Text[250];
     begin
         TransportLog.SetCurrentKey("Connector Code", "Whse. Shipment No.", "Date/Time");
         TransportLog.SetRange("Whse. Shipment No.", WhseShptNo);
         TransportLog.SetRange(Status, TransportLog.Status::Error);
-        if TransportLog.FindLast() then
-            exit(CopyStr(TransportLog."Message Text", 1, 250));
-        exit('');
+        if not TransportLog.FindLast() then
+            exit('');
+        LastErrorDateTime := TransportLog."Date/Time";
+        ErrorText := CopyStr(TransportLog."Message Text", 1, 250);
+
+        TransportLog.SetRange(Status, TransportLog.Status::Success);
+        TransportLog.SetFilter("Date/Time", '>%1', LastErrorDateTime);
+        if not TransportLog.IsEmpty() then
+            exit('');
+        exit(ErrorText);
     end;
 
     /// <summary>
@@ -93,20 +106,21 @@ codeunit 52100 "MBT Transport Export Mgt."
     begin
         TempTransportExportBuffer.SetRange(Selected, true);
         TempTransportExportBuffer.SetCurrentKey("Carrier Connector Code");
-        if not TempTransportExportBuffer.FindSet() then
-            exit;
+        if TempTransportExportBuffer.FindSet() then begin
+            FirstIteration := true;
+            repeat
+                if FirstIteration or (TempTransportExportBuffer."Carrier Connector Code" <> PrevConnectorCode) then begin
+                    PrevConnectorCode := TempTransportExportBuffer."Carrier Connector Code";
+                    FirstIteration := false;
+                    if (PrevConnectorCode <> '') and ConnectorSetup.Get(PrevConnectorCode) then
+                        ExportForConnector(TempTransportExportBuffer, ConnectorSetup);
+                end;
+            until TempTransportExportBuffer.Next() = 0;
+        end;
 
-        FirstIteration := true;
-        repeat
-            if FirstIteration or (TempTransportExportBuffer."Carrier Connector Code" <> PrevConnectorCode) then begin
-                PrevConnectorCode := TempTransportExportBuffer."Carrier Connector Code";
-                FirstIteration := false;
-                if (PrevConnectorCode <> '') and ConnectorSetup.Get(PrevConnectorCode) then
-                    ExportForConnector(TempTransportExportBuffer, ConnectorSetup);
-            end;
-        until TempTransportExportBuffer.Next() = 0;
-
+        // Filter altijd terugzetten, ook als er niets geselecteerd was (voorheen bleef de pagina anders gefilterd op Selected).
         TempTransportExportBuffer.SetRange(Selected);
+        TempTransportExportBuffer.SetRange("Carrier Connector Code");
         TempTransportExportBuffer.SetCurrentKey("Whse. Shipment No.");
     end;
 
@@ -198,6 +212,51 @@ codeunit 52100 "MBT Transport Export Mgt."
         until TempConnectorLines.Next() = 0;
     end;
 
+    /// <summary>
+    /// Haalt het verzendlabel op bij de gekoppelde transporteur-connector (bv. DHL "Create
+    /// labels") en biedt dit aan als PDF-download. Alleen van toepassing als de connector
+    /// labels ondersteunt en de verzending al een trackingnummer heeft (FO §7.1).
+    /// Geeft true terug als het label is gedownload; dan wordt ook de exportfout van de
+    /// magazijnverzending gewist.
+    /// </summary>
+    procedure PrintLabel(var WhseShptHeader: Record "Warehouse Shipment Header"): Boolean
+    var
+        ConnectorSetup: Record "MBT Transport Connector Setup";
+        ITransportConnector: Interface "MBT ITransportConnector";
+        TempBlob: Codeunit "Temp Blob";
+        LabelInStream: InStream;
+        FileName: Text;
+    begin
+        if WhseShptHeader."MBT Carrier Connector Code" = '' then
+            Error(NoConnectorSelectedErr);
+        if not ConnectorSetup.Get(WhseShptHeader."MBT Carrier Connector Code") then
+            Error(ConnectorSetupMissingErr, WhseShptHeader."MBT Carrier Connector Code");
+        if not ConnectorSetup."Labels Supported" then
+            Error(LabelsNotSupportedErr, ConnectorSetup.Code);
+        if WhseShptHeader."MBT Tracking No." = '' then
+            Error(NotYetExportedErr);
+
+        GetConnector(ConnectorSetup.Code, ITransportConnector);
+        if not ITransportConnector.GetLabel(WhseShptHeader, TempBlob) then begin
+            TransportLogMgt.LogEntry(ConnectorSetup.Code, WhseShptHeader."No.", Enum::"MBT Transport Log Direction"::Outbound, Enum::"MBT Transport Log Status"::Error, LabelRetrievalErr);
+            Error(LabelRetrievalErr);
+        end;
+
+        TempBlob.CreateInStream(LabelInStream);
+        FileName := WhseShptHeader."MBT Tracking No." + '.pdf';
+        if not DownloadFromStream(LabelInStream, DownloadLabelTxt, '', LabelFileFilterTxt, FileName) then
+            exit(false);
+
+        // Het label is opgehaald: een eerdere exportfout is daarmee achterhaald. Logregels blijven
+        // bewaard; de laatste Success-regel zorgt dat de oude fout niet meer in het tussenscherm staat.
+        if WhseShptHeader."MBT Export Error" then begin
+            WhseShptHeader."MBT Export Error" := false;
+            WhseShptHeader.Modify();
+        end;
+        TransportLogMgt.LogEntry(ConnectorSetup.Code, WhseShptHeader."No.", Enum::"MBT Transport Log Direction"::Outbound, Enum::"MBT Transport Log Status"::Success, LabelDownloadedMsg);
+        exit(true);
+    end;
+
     local procedure SyncBackToBuffer(var TempTransportExportBuffer: Record "MBT Transport Export Buffer" temporary; var TempConnectorLines: Record "MBT Transport Export Buffer" temporary)
     begin
         if not TempConnectorLines.FindSet() then
@@ -242,4 +301,12 @@ codeunit 52100 "MBT Transport Export Mgt."
         TransportLogMgt: Codeunit "MBT Transport Log Mgt.";
         ExportedToFileMsg: Label 'Regel opgenomen in uitgaand bestand.';
         UnknownConnectorErr: Label 'Onbekende transporteur-connector: %1';
+        NoConnectorSelectedErr: Label 'Er is geen expediteur (transporteur-connector) gekoppeld aan deze magazijnverzending.';
+        ConnectorSetupMissingErr: Label 'De transportkoppeling %1 is niet (correct) ingericht in Transport Connector Setup.';
+        LabelsNotSupportedErr: Label 'De transporteur-connector %1 ondersteunt geen labels.';
+        NotYetExportedErr: Label 'Deze magazijnverzending is nog niet (succesvol) geëxporteerd naar de transporteur; er is nog geen trackingnummer bekend.';
+        LabelRetrievalErr: Label 'Kon geen verzendlabel ophalen bij de transporteur.';
+        LabelDownloadedMsg: Label 'Verzendlabel gedownload.';
+        DownloadLabelTxt: Label 'Verzendlabel downloaden';
+        LabelFileFilterTxt: Label 'PDF-bestanden (*.pdf)|*.pdf', Locked = true;
 }

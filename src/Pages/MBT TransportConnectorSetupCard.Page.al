@@ -47,6 +47,10 @@ page 52101 "MBT Transport Conn. Setup Card"
                 {
                     ToolTip = 'Geeft de basis-URL van de API of bestandslocatie weer.';
                 }
+                field("Account ID"; Rec."Account ID")
+                {
+                    ToolTip = 'Geeft het account-/klantnummer bij de transporteur weer.';
+                }
                 field("Update Frequency (Minutes)"; Rec."Update Frequency (Minutes)")
                 {
                     ToolTip = 'Geeft aan hoe vaak (in minuten) de terugkoppeling wordt opgehaald.';

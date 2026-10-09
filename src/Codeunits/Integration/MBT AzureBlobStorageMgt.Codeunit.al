@@ -40,6 +40,48 @@ codeunit 52107 "MBT Azure Blob Storage Mgt."
         exit(true);
     end;
 
+    /// <summary>Uploadt een binair bestand (bv. XLSX) naar de container; zelfde authenticatie en retry-gedrag als UploadBlob.</summary>
+    procedure UploadBlobFromBlob(ContainerSasUrl: Text; BlobName: Text; ContentType: Text; var TempBlob: Codeunit "Temp Blob"; var ErrorText: Text): Boolean
+    var
+        BlobContent: HttpContent;
+        ContentHeaders: HttpHeaders;
+        BlobInStream: InStream;
+    begin
+        TempBlob.CreateInStream(BlobInStream);
+        BlobContent.WriteFrom(BlobInStream);
+        BlobContent.GetHeaders(ContentHeaders);
+        if ContentHeaders.Contains('Content-Type') then
+            ContentHeaders.Remove('Content-Type');
+        ContentHeaders.Add('Content-Type', ContentType);
+
+        exit(PutBlob(ContainerSasUrl, BlobName, BlobContent, ErrorText));
+    end;
+
+    local procedure PutBlob(ContainerSasUrl: Text; BlobName: Text; BlobContent: HttpContent; var ErrorText: Text): Boolean
+    var
+        HttpClient: HttpClient;
+        RequestMessage: HttpRequestMessage;
+        ResponseMessage: HttpResponseMessage;
+        RequestHeaders: HttpHeaders;
+    begin
+        RequestMessage.Method('PUT');
+        RequestMessage.SetRequestUri(BuildBlobUrl(ContainerSasUrl, BlobName));
+        RequestMessage.Content(BlobContent);
+        RequestMessage.GetHeaders(RequestHeaders);
+        RequestHeaders.Add('x-ms-blob-type', 'BlockBlob');
+        RequestHeaders.Add('x-ms-version', AzureStorageApiVersionTxt);
+
+        if not HttpClient.Send(RequestMessage, ResponseMessage) then begin
+            ErrorText := GetLastErrorText();
+            exit(false);
+        end;
+        if not ResponseMessage.IsSuccessStatusCode() then begin
+            ResponseMessage.Content().ReadAs(ErrorText);
+            exit(false);
+        end;
+        exit(true);
+    end;
+
     /// <summary>Downloadt de inhoud van één blob als tekst.</summary>
     procedure DownloadBlob(ContainerSasUrl: Text; BlobName: Text; var Content: Text; var ErrorText: Text): Boolean
     var

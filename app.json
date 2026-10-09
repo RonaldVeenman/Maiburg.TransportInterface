@@ -1,8 +1,8 @@
 {
   "id": "45f52e1c-3a87-4731-b19b-d2d880b401db",
-  "name": "Maiburg Transport interface",
+  "name": "Maiburg Transport interface (MBT)",
   "publisher": "VBS",
-  "version": "28.0.260921.0",
+  "version": "28.0.261007.0",
   "brief": "",
   "description": "Maiburg transportkoppeling (MBT)",
   "privacyStatement": "",

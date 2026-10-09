@@ -1,0 +1,951 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="nl-NL" original="Maiburg Transport interface">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 3533576677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Connector Credentials</source>
+          <target state="translated">Transporteur Connector Credentials</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Conn. Credent. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3533576677 - Field 2808909874 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Connector Code</source>
+          <target state="translated">Connectorcode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Conn. Credent. - Field Connector Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3533576677 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Omschrijving</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Conn. Credent. - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3533576677 - Field 867325179 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan of er voor deze sleutel al een geheime waarde is vastgelegd in Isolated Storage.</source>
+          <target state="translated">Geeft aan of er voor deze sleutel al een geheime waarde is vastgelegd in Isolated Storage.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Conn. Credent. - Field Has Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3533576677 - Field 867325179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Has Value</source>
+          <target state="translated">Heeft Waarde</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Conn. Credent. - Field Has Value - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3533576677 - Field 3603033357 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Naam van de sleutel in Isolated Storage waaronder het geheim is opgeslagen. Bevat nooit de geheime waarde zelf.</source>
+          <target state="translated">Naam van de sleutel in Isolated Storage waaronder het geheim is opgeslagen. Bevat nooit de geheime waarde zelf.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Conn. Credent. - Field Isolated Storage Key - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3533576677 - Field 3603033357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Isolated Storage Key</source>
+          <target state="translated">Isolated Storage-sleutel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Conn. Credent. - Field Isolated Storage Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3533576677 - Field 4283191856 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Naam van het secret in Azure Key Vault (alternatief voor Isolated Storage). Bevat nooit de geheime waarde zelf.</source>
+          <target state="translated">Naam van het secret in Azure Key Vault (alternatief voor Isolated Storage). Bevat nooit de geheime waarde zelf.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Conn. Credent. - Field Key Vault Secret Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3533576677 - Field 4283191856 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Key Vault Secret Name</source>
+          <target state="translated">Key Vault Secretnaam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Conn. Credent. - Field Key Vault Secret Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3533576677 - Field 1225117715 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Logische naam van het geheim, bijvoorbeeld ApiUserId, ApiKey of ContainerSasUrl.</source>
+          <target state="translated">Logische naam van het geheim, bijvoorbeeld ApiUserId, ApiKey of ContainerSasUrl.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Conn. Credent. - Field Secret Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 3533576677 - Field 1225117715 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secret Name</source>
+          <target state="translated">Secretnaam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Conn. Credent. - Field Secret Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Connector Setup</source>
+          <target state="translated">Transporteur Connector Setup</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 1090351696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <target state="translated">Actief</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Active - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 2517242498 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API-basis-URL (DHL/Bumbal) of blob-containerpad (Claassen/Van der Werff).</source>
+          <target state="translated">API-basis-URL (DHL/Bumbal) of blob-containerpad (Claassen/Van der Werff).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Base URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 2517242498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base URL</source>
+          <target state="translated">Basis-URL</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Base URL - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 1798213677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Carrier No.</source>
+          <target state="translated">Vervoerdernr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Carrier No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <target state="translated">Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 893385458 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Informatief: ID van de connector-codeunit. De daadwerkelijke routering gebeurt via een vaste case-dispatch op Code in Transport Export Mgt.</source>
+          <target state="translated">Informatief: ID van de connector-codeunit. De daadwerkelijke routering gebeurt via een vaste case-dispatch op Code in Transport Export Mgt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Codeunit ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 893385458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Codeunit ID</source>
+          <target state="translated">Codeunit-ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Codeunit ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 2815886469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Connector Type</source>
+          <target state="translated">Connectortype</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Connector Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated">Omschrijving</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 3277625317 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Labels Supported</source>
+          <target state="translated">Labels Ondersteund</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Labels Supported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 989698349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Track and Trace Supported</source>
+          <target state="translated">Track &amp; Trace Ondersteund</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Track and Trace Supported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 2494692211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Voorgestelde pollingfrequentie voor statusupdates.</source>
+          <target state="translated">Voorgestelde pollingfrequentie voor statusupdates.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Update Frequency (Minutes) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 1300457496 - Field 2494692211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Frequency (Minutes)</source>
+          <target state="translated">Update-frequentie (Minuten)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Connector Setup - Field Update Frequency (Minutes) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531056960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Export Buffer</source>
+          <target state="translated">Transport Exportbuffer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Export Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531056960 - Field 3788308398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expediteur</source>
+          <target state="translated">Expediteur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Export Buffer - Field Carrier Connector Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531056960 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target state="translated">Klantnaam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Export Buffer - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531056960 - Field 1476062623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Text</source>
+          <target state="translated">Foutmelding</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Export Buffer - Field Error Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531056960 - Field 2676439543 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Date Time</source>
+          <target state="translated">Exportdatum/-tijd</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Export Buffer - Field Export Date Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531056960 - Field 4004740007 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exported</source>
+          <target state="translated">Geëxporteerd</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Export Buffer - Field Exported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531056960 - Field 90423963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selected</source>
+          <target state="translated">Geselecteerd</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Export Buffer - Field Selected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531056960 - Field 4112852368 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Date</source>
+          <target state="translated">Verzenddatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Export Buffer - Field Shipment Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531056960 - Field 2269512032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Qty. (Colli)</source>
+          <target state="translated">Totaal Aantal (Colli)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Export Buffer - Field Total Qty. (Colli) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531056960 - Field 582094086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Weight</source>
+          <target state="translated">Totaalgewicht</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Export Buffer - Field Total Weight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531056960 - Field 3830253100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tracking No.</source>
+          <target state="translated">Trackingnummer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Export Buffer - Field Tracking No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3531056960 - Field 365832844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Shipment No.</source>
+          <target state="translated">Mag.verzendingsnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Export Buffer - Field Whse. Shipment No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 123333128 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Log</source>
+          <target state="translated">Transportlog</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 123333128 - Field 2808909874 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Connector Code</source>
+          <target state="translated">Connectorcode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Log - Field Connector Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 123333128 - Field 3301321002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date/Time</source>
+          <target state="translated">Datum/Tijd</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Log - Field Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 123333128 - Field 39585143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Direction</source>
+          <target state="translated">Richting</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Log - Field Direction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 123333128 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <target state="translated">Volgnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Log - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 123333128 - Field 3686646978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Text</source>
+          <target state="translated">Berichttekst</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Log - Field Message Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 123333128 - Field 861590849 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request Payload</source>
+          <target state="translated">Aanvraaggegevens</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Log - Field Request Payload - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 123333128 - Field 3149709895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Response Payload</source>
+          <target state="translated">Antwoordgegevens</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Log - Field Response Payload - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 123333128 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target state="translated">Status</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Log - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 123333128 - Field 365832844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Whse. Shipment No.</source>
+          <target state="translated">Mag.verzendingsnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MBT Transport Log - Field Whse. Shipment No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 904692156 - NamedType 3710895447" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Het antwoord van Azure Blob Storage (List Blobs) kon niet worden gelezen.</source>
+          <target state="translated">Het antwoord van Azure Blob Storage (List Blobs) kon niet worden gelezen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Azure Blob Storage Mgt. - NamedType InvalidListResponseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4053215215 - NamedType 3231125907" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Er is nog geen Bumbal API-key/JWT vastgelegd in Isolated Storage.</source>
+          <target state="translated">Er is nog geen Bumbal API-key/JWT vastgelegd in Isolated Storage.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Bumbal Connector - NamedType CredentialsMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4053215215 - NamedType 950344170" size-unit="char" translate="yes" xml:space="preserve">
+          <source>De transportkoppeling %1 is niet (correct) ingericht in Transport Connector Setup.</source>
+          <target state="translated">De transportkoppeling %1 is niet (correct) ingericht in Transport Connector Setup.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Bumbal Connector - NamedType SetupMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 208102104 - NamedType 3231125907" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Er is nog geen container-SAS-URL vastgelegd in Isolated Storage voor Claassen.</source>
+          <target state="translated">Er is nog geen container-SAS-URL vastgelegd in Isolated Storage voor Claassen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Claassen Connector - NamedType CredentialsMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 208102104 - NamedType 2886957599" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trackingnummer %1 verwerkt uit terugkoppelbestand.</source>
+          <target state="translated">Trackingnummer %1 verwerkt uit terugkoppelbestand.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Claassen Connector - NamedType FeedbackAppliedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 531589724 - NamedType 364485539" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DHL API-sleutel</source>
+          <target state="translated">DHL API-sleutel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Dhl Connector - NamedType ApiKeyDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 531589724 - NamedType 3231125907" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Er zijn nog geen DHL-credentials (UserId/ApiKey) vastgelegd in Isolated Storage.</source>
+          <target state="translated">Er zijn nog geen DHL-credentials (UserId/ApiKey) vastgelegd in Isolated Storage.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Dhl Connector - NamedType CredentialsMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 531589724 - NamedType 950344170" size-unit="char" translate="yes" xml:space="preserve">
+          <source>De transportkoppeling %1 is niet (correct) ingericht in Transport Connector Setup.</source>
+          <target state="translated">De transportkoppeling %1 is niet (correct) ingericht in Transport Connector Setup.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Dhl Connector - NamedType SetupMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 531589724 - NamedType 2502357271" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kon geen geldig accessToken uit het DHL-authenticatie-antwoord lezen: %1</source>
+          <target state="translated">Kon geen geldig accessToken uit het DHL-authenticatie-antwoord lezen: %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Dhl Connector - NamedType TokenResponseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 531589724 - NamedType 1171074382" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DHL API-gebruikers-ID</source>
+          <target state="translated">DHL API-gebruikers-ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Dhl Connector - NamedType UserIdDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3436121168 - NamedType 669351719" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kon geen verbinding maken met de externe dienst: %1</source>
+          <target state="translated">Kon geen verbinding maken met de externe dienst: %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Http Client Helper - NamedType CommunicationErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3436121168 - NamedType 2197075555" size-unit="char" translate="yes" xml:space="preserve">
+          <source>De externe dienst gaf statuscode %1 terug: %2</source>
+          <target state="translated">De externe dienst gaf statuscode %1 terug: %2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Http Client Helper - NamedType HttpStatusErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3401512112 - NamedType 967535483" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Regel opgenomen in uitgaand bestand.</source>
+          <target state="translated">Regel opgenomen in uitgaand bestand.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Transport Export Mgt. - NamedType ExportedToFileMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3401512112 - NamedType 507713354" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Onbekende transporteur-connector: %1</source>
+          <target state="translated">Onbekende transporteur-connector: %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Transport Export Mgt. - NamedType UnknownConnectorErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3990199254 - NamedType 2863438370" size-unit="char" translate="yes" xml:space="preserve">
+          <source>De koppeling met Van der Werff is nog niet ontwikkeld. Zendingnummer: %1. Neem contact op met de projectleider zodra het XML-schema van Van der Werff is vastgesteld.</source>
+          <target state="translated">De koppeling met Van der Werff is nog niet ontwikkeld. Zendingnummer: %1. Neem contact op met de projectleider zodra het XML-schema van Van der Werff is vastgesteld.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT VanDerWerff Connector - NamedType NotYetImplementedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3990199254 - NamedType 3011486697" size-unit="char" translate="yes" xml:space="preserve">
+          <source>De koppeling met Van der Werff is nog niet ontwikkeld. Neem contact op met de projectleider zodra het XML-schema van Van der Werff is vastgesteld.</source>
+          <target state="translated">De koppeling met Van der Werff is nog niet ontwikkeld. Neem contact op met de projectleider zodra het XML-schema van Van der Werff is vastgesteld.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT VanDerWerff Connector - NamedType NotYetImplementedGenericErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1611755410 - NamedType 3569385981" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Er is al een magazijnpick aangemaakt voor deze verzending (%1). De expediteur kan niet meer worden gewijzigd.</source>
+          <target state="translated">Er is al een magazijnpick aangemaakt voor deze verzending (%1). De expediteur kan niet meer worden gewijzigd.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit MBT Whse Shpt Lock Mgt. - NamedType CarrierLockedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2184117189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waarde Invoeren</source>
+          <target state="translated">Waarde Invoeren</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Isolated Storage Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2184117189 - Control 719522448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de transporteur-connector weer waarbij dit geheim hoort.</source>
+          <target state="translated">Geeft de transporteur-connector weer waarbij dit geheim hoort.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Isolated Storage Entry - Control ConnectorCodeField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2184117189 - Control 719522448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Connector</source>
+          <target state="translated">Connector</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Isolated Storage Entry - Control ConnectorCodeField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2184117189 - Control 957882117 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de naam van het geheim weer.</source>
+          <target state="translated">Geeft de naam van het geheim weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Isolated Storage Entry - Control SecretNameField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2184117189 - Control 957882117 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Naam</source>
+          <target state="translated">Naam</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Isolated Storage Entry - Control SecretNameField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2184117189 - Control 984335955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Voer de geheime waarde in. De waarde wordt niet zichtbaar opgeslagen en niet gelogd.</source>
+          <target state="translated">Voer de geheime waarde in. De waarde wordt niet zichtbaar opgeslagen en niet gelogd.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Isolated Storage Entry - Control ValueField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2184117189 - Control 984335955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waarde</source>
+          <target state="translated">Waarde</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Isolated Storage Entry - Control ValueField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3533576677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Connector Credentials</source>
+          <target state="translated">Transporteur Connector Credentials</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Credent. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3533576677 - NamedType 1888940656" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weet u zeker dat u de opgeslagen waarde voor %1 wilt verwijderen?</source>
+          <target state="translated">Weet u zeker dat u de opgeslagen waarde voor %1 wilt verwijderen?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Credent. - NamedType ClearValueQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3533576677 - Control 2808909874 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de transporteur-connector weer waarbij dit geheim hoort.</source>
+          <target state="translated">Geeft de transporteur-connector weer waarbij dit geheim hoort.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Credent. - Control Connector Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3533576677 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft een omschrijving van het geheim weer.</source>
+          <target state="translated">Geeft een omschrijving van het geheim weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Credent. - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3533576677 - Control 867325179 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan of er al een waarde is vastgelegd in Isolated Storage.</source>
+          <target state="translated">Geeft aan of er al een waarde is vastgelegd in Isolated Storage.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Credent. - Control Has Value - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3533576677 - Control 4283191856 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de naam van het secret in Azure Key Vault weer (indien van toepassing).</source>
+          <target state="translated">Geeft de naam van het secret in Azure Key Vault weer (indien van toepassing).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Credent. - Control Key Vault Secret Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3533576677 - Control 1225117715 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de logische naam van het geheim weer, bijvoorbeeld ApiUserId, ApiKey of ContainerSasUrl.</source>
+          <target state="translated">Geeft de logische naam van het geheim weer, bijvoorbeeld ApiUserId, ApiKey of ContainerSasUrl.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Credent. - Control Secret Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3533576677 - Action 1463736326 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Verwijdert de opgeslagen geheime waarde uit Isolated Storage.</source>
+          <target state="translated">Verwijdert de opgeslagen geheime waarde uit Isolated Storage.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Credent. - Action ClearValue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3533576677 - Action 1463736326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waarde wissen</source>
+          <target state="translated">Waarde wissen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Credent. - Action ClearValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3533576677 - Action 3163422347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opent een dialoogvenster om de geheime waarde in te voeren en veilig op te slaan in Isolated Storage.</source>
+          <target state="translated">Opent een dialoogvenster om de geheime waarde in te voeren en veilig op te slaan in Isolated Storage.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Credent. - Action SetValue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3533576677 - Action 3163422347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waarde instellen</source>
+          <target state="translated">Waarde instellen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Credent. - Action SetValue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transporteur Connector</source>
+          <target state="translated">Transporteur Connector</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Control 1090351696 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan of deze connector actief is.</source>
+          <target state="translated">Geeft aan of deze connector actief is.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Control Active - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Control 2517242498 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de basis-URL van de API of bestandslocatie weer.</source>
+          <target state="translated">Geeft de basis-URL van de API of bestandslocatie weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Control Base URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Control 1798213677 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de gekoppelde vervoerder (crediteur) weer.</source>
+          <target state="translated">Geeft de gekoppelde vervoerder (crediteur) weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Control Carrier No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de code van de transporteur-connector weer.</source>
+          <target state="translated">Geeft de code van de transporteur-connector weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Control 893385458 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft ter informatie het codeunit-ID van de implementatie weer.</source>
+          <target state="translated">Geeft ter informatie het codeunit-ID van de implementatie weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Control Codeunit ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Control 2815886469 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan of de koppeling via API of bestand verloopt.</source>
+          <target state="translated">Geeft aan of de koppeling via API of bestand verloopt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Control Connector Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de omschrijving van de transporteur-connector weer.</source>
+          <target state="translated">Geeft de omschrijving van de transporteur-connector weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Control 3277625317 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan of het ophalen van verzendlabels wordt ondersteund door deze connector.</source>
+          <target state="translated">Geeft aan of het ophalen van verzendlabels wordt ondersteund door deze connector.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Control Labels Supported - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Control 989698349 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan of track &amp; trace wordt ondersteund door deze connector.</source>
+          <target state="translated">Geeft aan of track &amp; trace wordt ondersteund door deze connector.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Control Track and Trace Supported - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Control 2494692211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan hoe vaak (in minuten) de terugkoppeling wordt opgehaald.</source>
+          <target state="translated">Geeft aan hoe vaak (in minuten) de terugkoppeling wordt opgehaald.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Control Update Frequency (Minutes) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Action 4229622380 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Beheer de credentials (secrets) van deze connector in Isolated Storage.</source>
+          <target state="translated">Beheer de credentials (secrets) van deze connector in Isolated Storage.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Action Credentials - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3020180939 - Action 4229622380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credentials</source>
+          <target state="translated">Credentials</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Conn. Setup Card - Action Credentials - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1300457496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transporteur Connectors</source>
+          <target state="translated">Transporteur Connectors</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Connector Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1300457496 - Control 1090351696 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan of deze connector actief is.</source>
+          <target state="translated">Geeft aan of deze connector actief is.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Connector Setup - Control Active - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1300457496 - Control 2517242498 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de basis-URL van de API of bestandslocatie weer.</source>
+          <target state="translated">Geeft de basis-URL van de API of bestandslocatie weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Connector Setup - Control Base URL - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1300457496 - Control 1798213677 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de gekoppelde vervoerder (crediteur) weer.</source>
+          <target state="translated">Geeft de gekoppelde vervoerder (crediteur) weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Connector Setup - Control Carrier No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1300457496 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de code van de transporteur-connector weer.</source>
+          <target state="translated">Geeft de code van de transporteur-connector weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Connector Setup - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1300457496 - Control 2815886469 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan of de koppeling via API of bestand verloopt.</source>
+          <target state="translated">Geeft aan of de koppeling via API of bestand verloopt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Connector Setup - Control Connector Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1300457496 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de omschrijving van de transporteur-connector weer.</source>
+          <target state="translated">Geeft de omschrijving van de transporteur-connector weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Connector Setup - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1300457496 - Control 3277625317 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan of het ophalen van verzendlabels wordt ondersteund door deze connector.</source>
+          <target state="translated">Geeft aan of het ophalen van verzendlabels wordt ondersteund door deze connector.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Connector Setup - Control Labels Supported - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1300457496 - Control 989698349 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan of track &amp; trace wordt ondersteund door deze connector.</source>
+          <target state="translated">Geeft aan of track &amp; trace wordt ondersteund door deze connector.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Connector Setup - Control Track and Trace Supported - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1300457496 - Control 2494692211 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan hoe vaak (in minuten) de terugkoppeling wordt opgehaald.</source>
+          <target state="translated">Geeft aan hoe vaak (in minuten) de terugkoppeling wordt opgehaald.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Connector Setup - Control Update Frequency (Minutes) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Export</source>
+          <target state="translated">Transportkoppeling Export</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Control 3788308398 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de gekozen expediteur (connector) weer.</source>
+          <target state="translated">Geeft de gekozen expediteur (connector) weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Control Carrier Connector Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Control 1171137197 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de naam van de klant weer.</source>
+          <target state="translated">Geeft de naam van de klant weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Control Customer Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Control 1476062623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de laatste foutmelding weer, indien van toepassing.</source>
+          <target state="translated">Geeft de laatste foutmelding weer, indien van toepassing.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Control Error Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Control 2676439543 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan wanneer deze regel is geëxporteerd.</source>
+          <target state="translated">Geeft aan wanneer deze regel is geëxporteerd.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Control Export Date Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Control 4004740007 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan of deze regel al is geëxporteerd.</source>
+          <target state="translated">Geeft aan of deze regel al is geëxporteerd.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Control Exported - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Control 90423963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selecteer deze regel om te exporteren.</source>
+          <target state="translated">Selecteer deze regel om te exporteren.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Control Selected - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Control 4112852368 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de verzenddatum weer.</source>
+          <target state="translated">Geeft de verzenddatum weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Control Shipment Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Control 2269512032 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft het totaal aantal colli weer.</source>
+          <target state="translated">Geeft het totaal aantal colli weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Control Total Qty. (Colli) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Control 582094086 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft het totaalgewicht weer.</source>
+          <target state="translated">Geeft het totaalgewicht weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Control Total Weight - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Control 3830253100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft het trackingnummer weer, indien bekend.</source>
+          <target state="translated">Geeft het trackingnummer weer, indien bekend.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Control Tracking No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Control 365832844 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft het nummer van de magazijnverzending weer.</source>
+          <target state="translated">Geeft het nummer van de magazijnverzending weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Control Whse. Shipment No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Action 36190024 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Verzendt de geselecteerde regels naar de bijbehorende transporteur-connector.</source>
+          <target state="translated">Verzendt de geselecteerde regels naar de bijbehorende transporteur-connector.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Action Export - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Action 36190024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exporteren</source>
+          <target state="translated">Exporteren</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Action Export - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Action 2026913255 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vult de lijst opnieuw met nog niet geëxporteerde, volledig gepickte magazijnverzendingen.</source>
+          <target state="translated">Vult de lijst opnieuw met nog niet geëxporteerde, volledig gepickte magazijnverzendingen.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Action Refresh - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Action 2026913255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vernieuwen</source>
+          <target state="translated">Vernieuwen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Action Refresh - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Action 2223207931 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selecteert alle regels in de lijst.</source>
+          <target state="translated">Selecteert alle regels in de lijst.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Action SelectAll - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3531056960 - Action 2223207931 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Alles selecteren</source>
+          <target state="translated">Alles selecteren</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Export Buffer - Action SelectAll - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 123333128 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Log</source>
+          <target state="translated">Transportlog</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 123333128 - Control 2808909874 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft de betrokken transporteur-connector weer.</source>
+          <target state="translated">Geeft de betrokken transporteur-connector weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Log - Control Connector Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 123333128 - Control 3301321002 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan wanneer deze logregel is vastgelegd.</source>
+          <target state="translated">Geeft aan wanneer deze logregel is vastgelegd.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Log - Control Date/Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 123333128 - Control 39585143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft aan of het bericht uitgaand of inkomend was.</source>
+          <target state="translated">Geeft aan of het bericht uitgaand of inkomend was.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Log - Control Direction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 123333128 - Control 883711285 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft het volgnummer van de logregel weer.</source>
+          <target state="translated">Geeft het volgnummer van de logregel weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Log - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 123333128 - Control 3686646978 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft het bericht of de foutmelding weer.</source>
+          <target state="translated">Geeft het bericht of de foutmelding weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Log - Control Message Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 123333128 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft het resultaat van de communicatie weer.</source>
+          <target state="translated">Geeft het resultaat van de communicatie weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Log - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 123333128 - Control 365832844 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Geeft het nummer van de betrokken magazijnverzending weer.</source>
+          <target state="translated">Geeft het nummer van de betrokken magazijnverzending weer.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Log - Control Whse. Shipment No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 123333128 - Action 1949234248 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Toont de inhoud van het verzonden bericht (request payload).</source>
+          <target state="translated">Toont de inhoud van het verzonden bericht (request payload).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Log - Action ShowRequestPayload - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 123333128 - Action 1949234248 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Verzoek tonen</source>
+          <target state="translated">Verzoek tonen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Log - Action ShowRequestPayload - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 123333128 - Action 1994983530 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Toont de inhoud van het ontvangen bericht (response payload).</source>
+          <target state="translated">Toont de inhoud van het ontvangen bericht (response payload).</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Log - Action ShowResponsePayload - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 123333128 - Action 1994983530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Antwoord tonen</source>
+          <target state="translated">Antwoord tonen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MBT Transport Log - Action ShowResponsePayload - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3213487862 - Control 2086544179 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2938519335">
+          <source>Geeft de expediteur (transporteur-connector) weer waarmee deze verzending wordt verstuurd.</source>
+          <target state="translated">Geeft de expediteur (transporteur-connector) weer waarmee deze verzending wordt verstuurd.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MBT Whse Shipment Header Ext. - Control MBT Carrier Connector Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3213487862 - Control 3220187827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2938519335">
+          <source>Geeft aan wanneer deze verzending is geëxporteerd naar de transporteur.</source>
+          <target state="translated">Geeft aan wanneer deze verzending is geëxporteerd naar de transporteur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MBT Whse Shipment Header Ext. - Control MBT Export Date/Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3213487862 - Control 2397341905 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2938519335">
+          <source>Geeft aan of de laatste exportpoging naar de transporteur is mislukt.</source>
+          <target state="translated">Geeft aan of de laatste exportpoging naar de transporteur is mislukt.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MBT Whse Shipment Header Ext. - Control MBT Export Error - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3213487862 - Control 2154194850 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2938519335">
+          <source>Geeft aan of deze verzending al is geëxporteerd naar de transporteur.</source>
+          <target state="translated">Geeft aan of deze verzending al is geëxporteerd naar de transporteur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MBT Whse Shipment Header Ext. - Control MBT Exported - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3213487862 - Control 708292981 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2938519335">
+          <source>Geeft het trackingnummer weer dat door de transporteur is toegekend.</source>
+          <target state="translated">Geeft het trackingnummer weer dat door de transporteur is toegekend.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MBT Whse Shipment Header Ext. - Control MBT Tracking No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 293877509 - Field 2086544179 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3880947038">
+          <source>Expediteur</source>
+          <target state="translated">Expediteur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MBT Whse. Shpt. Header Ext - Field MBT Carrier Connector Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 293877509 - Field 3220187827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3880947038">
+          <source>Export Date/Time</source>
+          <target state="translated">Exportdatum/-tijd</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MBT Whse. Shpt. Header Ext - Field MBT Export Date/Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 293877509 - Field 2397341905 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3880947038">
+          <source>Export Error</source>
+          <target state="translated">Exportfout</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MBT Whse. Shpt. Header Ext - Field MBT Export Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 293877509 - Field 2154194850 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3880947038">
+          <source>Exported</source>
+          <target state="translated">Geëxporteerd</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MBT Whse. Shpt. Header Ext - Field MBT Exported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 293877509 - Field 708292981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3880947038">
+          <source>Tracking No.</source>
+          <target state="translated">Trackingnummer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension MBT Whse. Shpt. Header Ext - Field MBT Tracking No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2810737773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Connector Type</source>
+          <target state="translated">Type Transportconnector</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum MBT Transport Connector Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2810737773 - EnumValue 3526110884 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API</source>
+          <target state="translated">API</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum MBT Transport Connector Type - EnumValue API - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2810737773 - EnumValue 3374690962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bestand</source>
+          <target state="translated">Bestand</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum MBT Transport Connector Type - EnumValue File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 975903595 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Log Direction</source>
+          <target state="translated">Transportlog Richting</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum MBT Transport Log Direction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 975903595 - EnumValue 3221732535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inkomend</source>
+          <target state="translated">Inkomend</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum MBT Transport Log Direction - EnumValue Inbound - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 975903595 - EnumValue 2757523496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Uitgaand</source>
+          <target state="translated">Uitgaand</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum MBT Transport Log Direction - EnumValue Outbound - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3709735884 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Log Status</source>
+          <target state="translated">Transportlog Status</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum MBT Transport Log Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3709735884 - EnumValue 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fout</source>
+          <target state="translated">Fout</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum MBT Transport Log Status - EnumValue Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3709735884 - EnumValue 3878926381 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Succes</source>
+          <target state="translated">Succes</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum MBT Transport Log Status - EnumValue Success - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3709735884 - EnumValue 3955473374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waarschuwing</source>
+          <target state="translated">Waarschuwing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum MBT Transport Log Status - EnumValue Warning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1753918485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Koppeling - Beheer</source>
+          <target state="translated">Transport Koppeling - Beheer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet MBT TRANSP-ADMIN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2071896857 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport Koppeling - Gebruik</source>
+          <target state="translated">Transport Koppeling - Gebruik</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet MBT TRANSP-USE - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
